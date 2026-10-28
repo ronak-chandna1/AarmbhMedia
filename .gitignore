@@ -1,0 +1,14 @@
+# design backups and build output
+_backup-*/
+*.zip
+
+# no longer used by the site
+93277b81-9992-4f7b-9e23-da2de4e4be52.png
+motion.css
+images/
+directions.html
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/

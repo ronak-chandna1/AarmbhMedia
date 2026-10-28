@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AARMBH MEDIA® — Event Production House, Delhi NCR</title>
+  <meta name="description" content="AARMBH MEDIA plans, builds and runs concerts, weddings, summits and brand launches with one in-house team. Delhi NCR, across India and the UAE.">
+  <meta property="og:title" content="AARMBH MEDIA® — Events that move people">
+  <meta property="og:description" content="Concerts, weddings, summits and launches, planned, built and run by one in-house team.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0c0c0d">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='14' fill='%230c0c0d'/><text x='50' y='74' font-size='68' font-family='Impact,sans-serif' fill='%23c9a46a' text-anchor='middle'>A</text></svg>">
+  <script>
+    // apply the saved theme before first paint; .js enables the reveal animations
+    document.documentElement.classList.add('js');
+    try { const t = localStorage.getItem('aarmbh-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=14">
+</head>
+<body class="is-loading">
+
+  <!-- PRELOADER -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <p class="pre-word">AARMBH<b>.</b></p>
+    <div class="pre-bar"><i id="preBar"></i></div>
+    <p class="pre-count"><span id="preCount">0</span>%</p>
+  </div>
+
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <!-- theme-change wave -->
+  <div class="wave" id="wave" aria-hidden="true"></div>
+  <!-- section-to-section wipe used by nav links -->
+  <div class="wipe" id="wipe" aria-hidden="true"><span class="wipe-word">AARMBH<b>.</b></span></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-row">
+      <a href="#top" class="logo" aria-label="AARMBH MEDIA home">AARMBH<b>.</b></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#reels">Reels</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <button class="theme-btn" data-theme-toggle aria-label="Switch between day and dark theme">
+          <span class="t-day">Day</span><span class="t-knob" aria-hidden="true"></span><span class="t-dark">Dark</span>
+        </button>
+        <a href="#contact" class="btn btn-accent btn-sm">Get a quote</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="wrap">
+      <nav class="menu-links">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#reels">Reels</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-foot">
+        <button class="theme-btn" data-theme-toggle aria-label="Switch between day and dark theme">
+          <span class="t-day">Day</span><span class="t-knob" aria-hidden="true"></span><span class="t-dark">Dark</span>
+        </button>
+        <a href="https://wa.me/919999999999?text=Hi%20AARMBH%20team" target="_blank" rel="noopener">WhatsApp ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- 1 · HERO -->
+    <section class="hero dark" id="hero">
+      <div class="hero-media" id="heroMedia" aria-hidden="true">
+        <img class="is-on" src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=2000&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=2000&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=2000&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=2000&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=2000&q=80" alt="">
+      </div>
+
+      <div class="wrap hero-copy">
+        <div class="hero-main">
+          <p class="kicker">Event production house · Delhi NCR</p>
+          <h1 class="display hero-title">
+            <span class="line"><span>Events that</span></span>
+            <span class="line"><span><em>move</em> people.</span></span>
+          </h1>
+        </div>
+        <div class="hero-side">
+          <p>Concerts, weddings, summits and launches, planned, built and run by one in-house team.</p>
+          <div class="btns">
+            <a href="#contact" class="btn btn-accent">Plan your event</a>
+            <button class="btn btn-ghost" id="playReel"><span class="play-ico" aria-hidden="true">▶</span>Watch reel</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- spinning badge -->
+      <a href="#contact" class="badge" aria-label="Now booking 2027 — get a quote">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <defs><path id="badgePath" d="M60 60 m-46 0 a46 46 0 1 1 92 0 a46 46 0 1 1 -92 0"/></defs>
+          <text><textPath href="#badgePath" textLength="286">NOW BOOKING 2027 ✦ INDIA &amp; UAE ✦ </textPath></text>
+        </svg>
+        <span class="badge-core" aria-hidden="true">↗</span>
+      </a>
+
+      <div class="wrap hero-foot">
+        <div class="segs" id="segs" role="tablist" aria-label="Slides">
+          <button role="tab" aria-label="Concerts"><i></i></button>
+          <button role="tab" aria-label="Weddings"><i></i></button>
+          <button role="tab" aria-label="Summits"><i></i></button>
+          <button role="tab" aria-label="Festivals"><i></i></button>
+          <button role="tab" aria-label="Celebrations"><i></i></button>
+        </div>
+        <dl class="stats">
+          <div><dd><span data-count="250">250</span>+</dd><dt>Events</dt></div>
+          <div><dd><span data-count="32">32</span></dd><dt>Cities</dt></div>
+          <div><dd><span data-count="500">500</span>K+</dd><dt>Guests</dt></div>
+          <div><dd>24H</dd><dt>Reply time</dt></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- BAND: crossing marquees -->
+    <div class="band" aria-hidden="true">
+      <div class="band-row band-a"><div class="band-track"><span>Concerts</span><i>✦</i><span>Weddings</span><i>✦</i><span>Summits</span><i>✦</i><span>Launches</span><i>✦</i><span>Festivals</span><i>✦</i><span>Sangeet</span><i>✦</i></div></div>
+      <div class="band-row band-b"><div class="band-track"><span>Sound</span><i>✦</i><span>Light</span><i>✦</i><span>LED</span><i>✦</i><span>Staging</span><i>✦</i><span>Décor</span><i>✦</i><span>Artists</span><i>✦</i></div></div>
+    </div>
+
+    <!-- 2 · SERVICES -->
+    <section class="light" id="services">
+      <span class="bgword" aria-hidden="true">Services</span>
+      <div class="wrap">
+        <div class="head head-row">
+          <div>
+            <p class="label">What we do</p>
+            <h2 class="display h2"><span class="line"><span>Two worlds.</span></span><span class="line"><span><mark>One team.</mark></span></span></h2>
+          </div>
+          <p class="head-note">A 60,000-person concert or a 150-guest sangeet, planned and run by the same in-house crew.</p>
+        </div>
+        <div class="cards">
+          <a href="#contact" class="card">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80" alt="Concert crowd under coloured lights" loading="lazy"></div>
+            <div class="card-body"><span class="card-n">01</span><h3>Concerts &amp; festivals</h3><p>Stages, sound, light and crowd safety.</p><i class="arrow" aria-hidden="true">→</i></div>
+          </a>
+          <a href="#contact" class="card">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=900&q=80" alt="Wedding couple under falling petals" loading="lazy"></div>
+            <div class="card-body"><span class="card-n">02</span><h3>Weddings &amp; sangeet</h3><p>Décor, guests and every function.</p><i class="arrow" aria-hidden="true">→</i></div>
+          </a>
+          <a href="#contact" class="card">
+            <div class="card-img"><img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=900&q=80" alt="Audience at a corporate summit" loading="lazy"></div>
+            <div class="card-body"><span class="card-n">03</span><h3>Summits &amp; launches</h3><p>Keynotes, reveals and live broadcast.</p><i class="arrow" aria-hidden="true">→</i></div>
+          </a>
+        </div>
+        <ul class="inhouse" aria-label="In-house capabilities">
+          <li class="inhouse-lbl">All in-house</li><li>Sound</li><li>Lighting</li><li>LED screens</li><li>Staging</li><li>Décor</li><li>3D planning</li><li>Artists</li>
+        </ul>
+        <div class="cities">
+          <p class="label">Where we produce</p>
+          <ul>
+            <li>Delhi NCR<small>HQ</small></li><li>Jaipur</li><li>Udaipur</li><li>Goa</li><li>Mumbai</li><li>Bengaluru</li><li>Dubai</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · WORK -->
+    <section class="dark" id="work">
+      <span class="bgword" aria-hidden="true">Work</span>
+      <div class="wrap">
+        <div class="head head-row">
+          <div>
+            <p class="label">Selected work</p>
+            <h2 class="display h2"><span class="line"><span>Proof, not</span></span><span class="line"><span><em>promises.</em></span></span></h2>
+          </div>
+          <div class="filters" id="filters" role="group" aria-label="Filter work">
+            <button class="filter is-on" data-filter="all">All</button>
+            <button class="filter" data-filter="brands">Brands</button>
+            <button class="filter" data-filter="families">Families</button>
+          </div>
+        </div>
+        <div class="work-grid" id="workGrid">
+          <figure class="shot big" data-tags="brands" data-full="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=2000&q=85" data-caption="Arena headline show — Delhi NCR">
+            <img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=1400&q=80" alt="Arena concert crowd" loading="lazy">
+            <figcaption><span class="tag">Concert</span><b>Arena headline show</b><small>Delhi NCR · 22,000 guests</small></figcaption>
+          </figure>
+          <figure class="shot" data-tags="families" data-full="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=85" data-caption="Palace wedding — Udaipur">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Wedding bouquet" loading="lazy">
+            <figcaption><span class="tag">Wedding</span><b>Palace wedding</b><small>Udaipur · 600 guests</small></figcaption>
+          </figure>
+          <figure class="shot" data-tags="brands" data-full="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=2000&q=85" data-caption="Keynote stage — Gurugram">
+            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80" alt="Keynote auditorium" loading="lazy">
+            <figcaption><span class="tag">Summit</span><b>Keynote stage</b><small>Gurugram · 1,200 guests</small></figcaption>
+          </figure>
+          <figure class="shot" data-tags="brands" data-full="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=2000&q=85" data-caption="Beach festival — Goa">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80" alt="Festival main stage" loading="lazy">
+            <figcaption><span class="tag">Festival</span><b>Beach festival</b><small>Goa · 15,000 guests</small></figcaption>
+          </figure>
+          <figure class="shot" data-tags="brands" data-full="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=2000&q=85" data-caption="Gala dinner — Mumbai">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=900&q=80" alt="Banquet hall set for a gala dinner" loading="lazy">
+            <figcaption><span class="tag">Gala</span><b>Awards gala dinner</b><small>Mumbai · 400 guests</small></figcaption>
+          </figure>
+          <figure class="shot" data-tags="families" data-full="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=2000&q=85" data-caption="Garden reception — Jaipur">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80" alt="Wedding reception tables" loading="lazy">
+            <figcaption><span class="tag">Wedding</span><b>Garden reception</b><small>Jaipur · 350 guests</small></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY AARMBH -->
+    <section class="light why" id="why">
+      <span class="bgword" aria-hidden="true">Why us</span>
+      <div class="wrap why-grid">
+        <div class="why-left">
+          <p class="label">Why AARMBH</p>
+          <h2 class="display h2"><span class="line"><span>One team.</span></span><span class="line"><span><mark>Zero middlemen.</mark></span></span></h2>
+          <div class="why-img"><img src="https://images.unsplash.com/photo-1478147427282-58a87a120781?auto=format&fit=crop&w=1100&q=80" alt="Hands raised under stage lights" loading="lazy"></div>
+        </div>
+        <ul class="why-list">
+          <li>
+            <span class="why-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="6" y="3" width="12" height="18" rx="2"/><circle cx="12" cy="14" r="3.5"/><circle cx="12" cy="7.5" r="1.2"/></svg></span>
+            <h3>Our own crew &amp; kit</h3><p>Sound, light, LED and staging are ours, so nothing is marked up twice and nothing gets swapped last minute.</p>
+          </li>
+          <li>
+            <span class="why-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></span>
+            <h3>See it in 3D first</h3><p>Walk through your stage and décor in 3D before anything is built. Change the plan, not the budget.</p>
+          </li>
+          <li>
+            <span class="why-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></span>
+            <h3>One director, start to finish</h3><p>The person who takes your brief is the one calling cues on the night.</p>
+          </li>
+          <li>
+            <span class="why-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></span>
+            <h3>Itemised, honest quotes</h3><p>Every line priced up front. No surprise bills after the event.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4 · REELS: vertical video cards -->
+    <section class="dark reels" id="reels">
+      <div class="wrap">
+        <div class="head head-row">
+          <div>
+            <p class="label">Reels</p>
+            <h2 class="display h2"><span class="line"><span>Behind the</span></span><span class="line"><span><em>scenes.</em></span></span></h2>
+          </div>
+          <div class="reels-nav">
+            <a href="#" class="ig">@aarmbhmedia ↗</a>
+            <button class="sq sq-d" id="reelsPrev" aria-label="Previous reels">←</button>
+            <button class="sq sq-d" id="reelsNext" aria-label="Next reels">→</button>
+          </div>
+        </div>
+      </div>
+      <div class="reels-track" id="reelsTrack">
+        <article class="rcard" data-start="1"><video src="animo-cover-ring-720p.mp4" muted playsinline preload="metadata"></video><span class="rtop"><i>▶</i>Reel</span><span class="rcap"><b>Birthday celebration</b>Delhi</span></article>
+        <article class="rcard" data-start="4"><video src="animo-cover-ring-720p.mp4" muted playsinline preload="metadata"></video><span class="rtop"><i>▶</i>Reel</span><span class="rcap"><b>Engagement night</b>Jaipur</span></article>
+        <article class="rcard" data-start="5.5"><video src="animo-cover-ring-720p.mp4" muted playsinline preload="metadata"></video><span class="rtop"><i>▶</i>Reel</span><span class="rcap"><b>Keynote night</b>Gurugram</span></article>
+        <article class="rcard" data-start="8.5"><video src="animo-cover-ring-720p.mp4" muted playsinline preload="metadata"></video><span class="rtop"><i>▶</i>Reel</span><span class="rcap"><b>Sangeet performance</b>Udaipur</span></article>
+        <article class="rcard" data-start="13.5"><video src="animo-cover-ring-720p.mp4" muted playsinline preload="metadata"></video><span class="rtop"><i>▶</i>Reel</span><span class="rcap"><b>Sunset aisle</b>Goa</span></article>
+      </div>
+    </section>
+
+    <!-- 5 · SHOWREEL: frame grows to full screen on scroll -->
+    <section class="reel dark" id="reel">
+      <div class="reel-pin">
+        <div class="reel-frame" id="reelFrame">
+          <video id="reelBg" src="animo-cover-ring-720p.mp4" muted loop playsinline preload="none" aria-hidden="true"></video>
+          <div class="reel-shade" aria-hidden="true"></div>
+        </div>
+        <div class="wrap reel-copy">
+          <h2 class="display reel-title"><span class="rt-a">Show</span><em class="rt-b">reel</em></h2>
+          <button class="reel-play" id="playReel2" aria-label="Play the showreel with sound"><span>▶</span></button>
+          <p class="label">90 seconds of what we do</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · PROCESS -->
+    <section class="light process" id="process">
+      <span class="bgword" aria-hidden="true">Process</span>
+      <div class="wrap">
+        <div class="head head-row">
+          <div>
+            <p class="label">How it works</p>
+            <h2 class="display h2"><span class="line"><span>Five steps to</span></span><span class="line"><span><mark>showtime.</mark></span></span></h2>
+          </div>
+          <p class="head-note">From the first call to the last cue, one team carries your event through five clear stages.</p>
+        </div>
+
+        <!-- cards stick and stack as you scroll -->
+        <div class="stack" id="stack">
+          <article class="scard" style="--i:0">
+            <div class="scard-text">
+              <div class="scard-top"><span class="scard-n">01</span><span class="chip">Day 1–3</span></div>
+              <h3>Discover</h3>
+              <p>We visit the venue, understand your guests and goals, and turn it all into a clear one-page brief.</p>
+              <ul class="scard-points"><li>Venue recce</li><li>Guest &amp; budget plan</li><li>Brief in 72 hours</li></ul>
+            </div>
+            <div class="scard-img"><img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80" alt="Empty banquet hall during a venue visit" loading="lazy"></div>
+          </article>
+          <article class="scard" style="--i:1">
+            <div class="scard-text">
+              <div class="scard-top"><span class="scard-n">02</span><span class="chip">Week 1</span></div>
+              <h3>Design</h3>
+              <p>Concept, mood and a 3D walkthrough of your stage and décor, with an itemised quote to match.</p>
+              <ul class="scard-points"><li>Concept deck</li><li>3D walkthrough</li><li>Itemised quote</li></ul>
+            </div>
+            <div class="scard-img"><img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=1200&q=80" alt="Flower-lined wedding aisle design" loading="lazy"></div>
+          </article>
+          <article class="scard" style="--i:2">
+            <div class="scard-text">
+              <div class="scard-top"><span class="scard-n">03</span><span class="chip">Weeks 2–6</span></div>
+              <h3>Build</h3>
+              <p>Sets and décor are fabricated, artists booked and permits filed, then everything is tested before it travels.</p>
+              <ul class="scard-points"><li>Fabrication</li><li>Artist bookings</li><li>Permits &amp; safety</li></ul>
+            </div>
+            <div class="scard-img"><img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80" alt="Stage and screens being set up" loading="lazy"></div>
+          </article>
+          <article class="scard" style="--i:3">
+            <div class="scard-text">
+              <div class="scard-top"><span class="scard-n">04</span><span class="chip">Event week</span></div>
+              <h3>Rig</h3>
+              <p>Our crew builds on site: sound, light, LED and staging, followed by a full technical rehearsal.</p>
+              <ul class="scard-points"><li>On-site build</li><li>Sound &amp; light check</li><li>Full rehearsal</li></ul>
+            </div>
+            <div class="scard-img"><img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80" alt="Concert lighting rig" loading="lazy"></div>
+          </article>
+          <article class="scard" style="--i:4">
+            <div class="scard-text">
+              <div class="scard-top"><span class="scard-n">05</span><span class="chip">The day</span></div>
+              <h3>Showtime</h3>
+              <p>One director calls every cue live while you enjoy the night. We wrap and clear the venue after.</p>
+              <ul class="scard-points"><li>Live cue-calling</li><li>Guest flow</li><li>Clean wrap</li></ul>
+            </div>
+            <div class="scard-img"><img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=1200&q=80" alt="Confetti over a concert crowd" loading="lazy"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · TESTIMONIALS -->
+    <section class="light voices" id="voices">
+      <div class="wrap voice-wrap">
+        <p class="label">Client words</p>
+        <div class="voice-stage" aria-live="polite">
+          <blockquote class="voice is-on"><p>“Three days in Udaipur that felt like a <mark>dream.</mark>”</p><footer><b>Wedding client</b><span>3-day wedding · Udaipur</span></footer></blockquote>
+          <blockquote class="voice"><p>“Empty ground to a <mark>15,000-person festival</mark> in 36 hours.”</p><footer><b>Festival client</b><span>Beach festival · Goa</span></footer></blockquote>
+          <blockquote class="voice"><p>“Flawless sound, flawless show. Our <mark>only partner</mark> now.”</p><footer><b>Corporate client</b><span>Leadership summit · Bengaluru</span></footer></blockquote>
+        </div>
+        <div class="voice-nav">
+          <span class="voice-idx"><b id="voiceIdx">01</b> / 03</span>
+          <i class="voice-bar"><b id="voiceBar"></b></i>
+          <button class="sq" id="voicePrev" aria-label="Previous quote">←</button>
+          <button class="sq" id="voiceNext" aria-label="Next quote">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · CONTACT -->
+    <section class="dark contact" id="contact">
+      <span class="bgword" aria-hidden="true">Contact</span>
+      <div class="wrap contact-grid">
+        <div class="contact-copy">
+          <p class="label">Start a project</p>
+          <h2 class="display h2 big"><span class="line"><span>Let's build</span></span><span class="line"><span><em>your</em> event.</span></span></h2>
+          <p class="lead">Tell us the basics. We reply within 24 hours with ideas and a next step.</p>
+          <ul class="channels">
+            <li><span>Call</span><a href="tel:+919999999999">+91 99999 99999</a></li>
+            <li><span>Email</span><a href="mailto:hello@aarmbhmedia.in">hello@aarmbhmedia.in</a></li>
+            <li><span>WhatsApp</span><a href="https://wa.me/919999999999?text=Hi%20AARMBH%20team" target="_blank" rel="noopener">Chat with us ↗</a></li>
+          </ul>
+        </div>
+        <form class="brief" id="briefForm" novalidate>
+          <label class="f"><span>Name</span><input class="field" id="bName" required autocomplete="name" placeholder="Your name"></label>
+          <label class="f"><span>WhatsApp</span><input class="field" id="bPhone" type="tel" required autocomplete="tel" placeholder="+91"></label>
+          <label class="f"><span>Event type</span>
+            <select class="field" id="bType" required>
+              <option value="">Choose one</option>
+              <option>Concert / festival</option>
+              <option>Wedding / sangeet</option>
+              <option>Corporate / summit</option>
+              <option>Launch / activation</option>
+              <option>Private celebration</option>
+            </select>
+          </label>
+          <label class="f"><span>Date</span><input class="field" id="bDate" type="date"></label>
+          <label class="f f-wide"><span>Anything else? (optional)</span><textarea class="field" id="bNote" rows="3" placeholder="Guests, city, budget, ideas…"></textarea></label>
+          <button type="submit" class="btn btn-accent btn-lg">Send enquiry →</button>
+          <p class="f-error" id="fError" aria-live="polite"></p>
+          <div class="f-success" id="fSuccess" hidden>
+            <p><b>Thank you!</b> We'll reply within 24 hours.</p>
+            <a href="#" id="fSuccessWa" target="_blank" rel="noopener" class="btn btn-ghost">Also send on WhatsApp ↗</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer dark">
+    <div class="footer-giant" id="footerGiant" aria-hidden="true">AARMBH</div>
+    <div class="wrap footer-top">
+      <div class="f-brand">
+        <a href="#top" class="logo">AARMBH<b>.</b></a>
+        <p>Event production house for concerts, weddings, summits and brand launches. One in-house team, from first idea to final encore.</p>
+        <a href="#contact" class="btn btn-accent btn-sm">Get a quote</a>
+      </div>
+      <nav class="f-col" aria-label="Explore">
+        <p class="label">Explore</p>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#reels">Reels</a>
+        <a href="#reel">Showreel</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="f-col">
+        <p class="label">Services</p>
+        <span>Concerts &amp; festivals</span>
+        <span>Weddings &amp; sangeet</span>
+        <span>Summits &amp; conferences</span>
+        <span>Brand launches</span>
+        <span>Private celebrations</span>
+      </div>
+      <div class="f-col">
+        <p class="label">Contact</p>
+        <a href="tel:+919999999999">+91 99999 99999</a>
+        <a href="mailto:hello@aarmbhmedia.in">hello@aarmbhmedia.in</a>
+        <a href="https://wa.me/919999999999?text=Hi%20AARMBH%20team" target="_blank" rel="noopener">WhatsApp ↗</a>
+        <span>Delhi NCR (HQ) · Mumbai · Udaipur · Dubai</span>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v6M8 7.5v.01M12 16v-6M12 13c0-2 4-3 4 0v3"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5v5l4-2.5z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© 2026–27 AARMBH MEDIA. All rights reserved.</p>
+      <p class="f-legal"><a href="#">Privacy</a><a href="#">Terms</a></p>
+      <a href="#top">Back to top ↑</a>
+      <!-- ===== Site Credit Badge: Fabulous Media | GoCommercially ===== -->
+      <div class="site-credit" aria-label="Site credits">
+        <a href="https://fabulousmedia.in/" target="_blank" rel="noopener" title="Designed by Fabulous Media">
+          <img src="https://www.google.com/s2/favicons?domain=fabulousmedia.in&sz=64" alt="Fabulous Media" loading="lazy" />
+        </a>
+        <span class="divider" aria-hidden="true"></span>
+        <a href="https://gocommercially.com/" target="_blank" rel="noopener" title="Powered by GoCommercially">
+          <img src="https://www.google.com/s2/favicons?domain=gocommercially.com&sz=64" alt="GoCommercially" loading="lazy" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="to-top" id="toTop" aria-label="Back to top"><span>↑</span></a>
+
+  <aside class="dock" aria-label="Quick contact">
+    <a href="https://wa.me/919999999999?text=Hi%20AARMBH%20team,%20I%20want%20to%20plan%20an%20event" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="#contact" class="dock-main">Get a quote</a>
+  </aside>
+
+  <div class="reel-modal" id="reelModal" aria-hidden="true" role="dialog" aria-label="Showreel">
+    <button class="sq modal-close" id="reelClose" aria-label="Close showreel">✕</button>
+    <video id="reelModalVideo" src="animo-cover-ring-720p.mp4" controls playsinline preload="none"></video>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button class="sq modal-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="sq lb-prev" id="lbPrev" aria-label="Previous">←</button>
+    <figure><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure>
+    <button class="sq lb-next" id="lbNext" aria-label="Next">→</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="script.js?v=13"></script>
+</body>
+</html>
